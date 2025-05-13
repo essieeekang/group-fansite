@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+
+  background-color:  #005249;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  /* font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; */
+}
+
+nav li{
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+
+}
+
+
