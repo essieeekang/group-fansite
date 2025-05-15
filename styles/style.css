@@ -6,15 +6,12 @@ body {
   color: white;
 
   background-color:  #005249;
+
+  min-width: 320px;
 }
 
 h1 {
   font-family: "Chewy", system-ui;
-  /* font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100; */
 }
 
 nav li{
