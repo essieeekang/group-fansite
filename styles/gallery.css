@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Delius&display=swap');
 
-body {
+main {
   font-family: 'Delius', cursive;
   max-width: 1000px;
   margin: 0 auto;
@@ -27,7 +27,7 @@ nav li {
 }
 
 nav a {
-  font-family: 'Chewy', cursive;
+  /* font-family: 'Chewy', cursive; */
   font-size: 1.1rem;
   text-decoration: none;
   color: #7a4e6c;
@@ -53,7 +53,7 @@ figure {
 figure:hover {
   transform: scale(1.03);
 }
-img {
+main img {
   width: 100%;
   max-width: 700px;
   height: auto;

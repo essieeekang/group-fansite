@@ -1,9 +1,5 @@
 /* General Reset */
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 /* Container Styling */
 main {
@@ -15,15 +11,15 @@ main {
 }
 
 /* Header Styling */
-header {
+/* header {
     text-align: center;
     background-color: #8fbc8f; /* Soft green for conservation theme */
-    color: white;
+    /* color: white;
     padding: 20px;
     border-radius: 10px;
     width: 100%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+/* } */
 
 /* Section Styling */
 section {
@@ -64,7 +60,7 @@ section p {
 }
 
 /* Footer Styling */
-footer {
+/* footer {
     text-align: center;
     background-color: #8fbc8f;
     color: white;
@@ -73,10 +69,10 @@ footer {
     width: 100%;
     margin-top: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Button Styling */
-nav a {
+/* nav a {
     background-color: #ffb6c1;
     color: #000000;
     border: none;
@@ -89,4 +85,4 @@ nav a {
 
 nav a:hover {
     background-color: #ff69b4; /* Brighter pink on hover */
-}
+/* } */
