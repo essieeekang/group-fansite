@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&family=Chewy&display=swap" rel="stylesheet" />
+    <link href="../styles/style.css" rel="stylesheet" />
+    <link href="../styles/conservation.css" rel="stylesheet" />
     <title>Conservation - Capybara Fansite</title>
 </head>
 <body>
-    <header>
+    <header class="header-footer">
+        <h1 id="main-heading"> Capybaras: Happybaras</h1>
         <nav>
         <ul>
             <li><a href="../index.html">Home</a></li>
@@ -18,35 +24,58 @@
         </ul>
         </nav>
     </header>
-    <h1>
-        Conservation - How's the capybara doing??
-    </h1>
-    <img src="../assets/images-conservation/capybara_question.jpg" alt="capybara with large question mark next to head">
+    <section id="page-title">
+        <h2 id="title-heading">
+            Conservation - How's the capybara doing??
+        </h2>
+        <img src="../assets/images-conservation/capybara_question.jpg" alt="capybara with large question mark next to head" id="capybara-question" />
+    </section>
     <main>
         <section id="conservation-overview">
-            <h2>... so how are they doing?</h2>
+            <h3 class="major-headings">... so how are they doing?</h3>
             <p>
-                As of March 2016, The International Union for Conservation of Nature (IUCN) <a href="https://iucnredlist.org/" target="_blank">Red List</a> has the capybara classified under Least Concern[1]. This means the population is considered stable, and the risk of extinction is pretty low.
+                As of March 2016, The International Union for Conservation of Nature (IUCN) <a href="https://iucnredlist.org/" target="_blank">Red List</a> has the capybara classified under Least Concern<a href="#iucn-assess" class="annotation">[1]</a>. This means the population is considered stable, and the risk of extinction is pretty low.
                 Capybaras have a wide population distribution spanning several countries across South America. They thrive around water, living in habitats that include forrests, savannas, wetlands, rivers and streams, and populations in most areas they exist in are generally considered healthy.
             </p>
+            <img src="../assets/images-conservation/Capybara-range.png" alt="capybara population distribution map" id="capybara-distribution" />
         </section>
         <section id="conservation-threats">
-            <h2>Threats to Capybaras</h2>
-            <h3>Natural Predators</h3>
-            <p>
-                Jaguars are the capybaras primary natural predator[2]. Other predators include anacondas and caimans for adult capybaras, as well as ocelots and harpy eagles for younger ones[3]. Luckily, capybaras
-            </p>
+            <h3 class="major-headings">Threats to Capybaras</h3>
+            <div class="capybara-threat">
+                <h4 class="minor-headings">Natural Predators</h4>
+                <img src="../assets/images-conservation/Jaguar-Female-JEP_6234-1.jpg" alt="jaguar facing camera" id="jaguar-threat" />
+                <p>
+                    Jaguars are the capybaras primary natural predator <a href="#pbs" class="annotation">[2]</a>. Other predators include anacondas and caimans for adult capybaras, as well as ocelots and harpy eagles for younger ones <a href="#rfa" class="annotation">[3]</a> (but don't worry too much; capybaras have ways to avoid predators in the wild!).
+                </p>
+            </div>
+            <div class="capybara-threat">
+                <h4 class="minor-headings">Climate Change</h4>
+                <img src="../assets/images-conservation/PHOTO-Climate-Collage-Diagonal-Design-NOAA-Communications-NO-NOAA-Logo.jpg" alt="climate change collage" id="climate-threat" />
+                <p>
+                    Along with many other creatures that call lush rainforests and wetlands home, climate change poses a significant threat to capybaras. The ecosystem our herbivore-dieting, water-loving capybaras depend on for survival are getting drier <a href="#ucdavis" class="annotation">[4]</a> making it more difficult to sustain foliage and to find reliable sources of water.
+                </p>
+            </div>
+            <div class="capybara-threat">
+                <h4 class="minor-headings">Humans</h4>
+                <img src="../assets/images-conservation/hunters.jpg" alt="group of hunters" id="human-threat" />
+                <p>
+                    Humans pose a significant threat to capybaras through hunting. In addition to being hunted for their meat, capybara leather in particular is considered valuable throughout South America; poaching is an issue in countries where legislation prohibits/restricts hunting capybara <a href="#iucn-threats" class="reference">[5]</a>.
+                </p>
+            </div>
         </section>
-        <section>
-            <ol>
-                <li><a href="https://www.iucnredlist.org/species/10300/22190005#assessment-information" target="_blank">IUCN Capybara Assessment Information</a></li>
-                <li><a href="https://www.pbs.org/wnet/nature/blog/capybara-fact-sheet/#:~:text=Adult%20capybaras%20have%20one%20main,and%20dive%20away%20from%20threats.">PBS Capybara Fact Sheet - Threats</a></li>
-                <li><a href="https://www.rainforest-alliance.org/species/capybara/">Rainforest Alliance - Capybara</a></li>
+        <section id="references">
+            <h5>References</h5>
+            <ol id="reference-list">
+                <li><a href="https://www.iucnredlist.org/species/10300/22190005#assessment-information" class="reference" id="iucn-assess" target="_blank">IUCN Capybara Assessment Information</a></li>
+                <li><a href="https://www.pbs.org/wnet/nature/blog/capybara-fact-sheet/#:~:text=Adult%20capybaras%20have%20one%20main,and%20dive%20away%20from%20threats." class="reference" id="pbs" target="_blank">PBS Capybara Fact Sheet - Threats</a></li>
+                <li><a href="https://www.rainforest-alliance.org/species/capybara/" class="reference" id="rfa" target="_blank">Rainforest Alliance - Capybara</a></li>
+                <li><a href="https://www.ucdavis.edu/climate/news/climate-change-threatens-most-amazon-mammals" class="reference" id="ucdavis" target="_blank">UC Davis - Amazon Mammals Threatened by Climate Change</a></li>
+                <li><a href="https://www.iucnredlist.org/species/10300/22190005#threats" class="reference" id="iucn-threats" target="_blank">IUCN Capybara Threat Information</a></li>
             </ol>
         </section>
     </main>
 
-    <footer>
+    <footer class="header-footer">
         &copy; Ada C23 Group 8
     </footer>
 </body>
