@@ -1,0 +1,54 @@
+
+body {
+  font-family: 'Delius', cursive;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 30px;
+  
+}
+h1 {
+  font-family: 'Chewy', cursive;
+ 
+}
+h2 {
+  font-family: "Chewy", cursive;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: #ffcad4;
+}
+figure {
+  margin: 0;
+  text-align: center;
+  background-color: #fff0f6; 
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease-in-out;
+}
+figure:hover {
+  transform: scale(1.03);
+}
+img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+  border: 3px solid #ffcde3; 
+  padding: 8px;
+  background-color: white;
+}
+figcaption {
+  margin-top: 12px;
+  font-size: 1.05rem;
+  color: #7a4e6c;
+  font-family: 'Delius', cursive;
+  font-weight: 500;
+}
+
