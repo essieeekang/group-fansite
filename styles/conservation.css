@@ -38,6 +38,11 @@ section h3 {
     font-size: 2em;
 }
 
+section h4 {
+    text-decoration: underline;
+    color: #eb963c;
+}
+
 section#references {
     font-size: 12px;
     text-align: justify;
