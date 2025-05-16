@@ -29,6 +29,11 @@ h2 {
   object-fit: cover;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+#gallary-container img:hover {
+  transform: scale(1.1);
 }
 
 #intro-container p {
