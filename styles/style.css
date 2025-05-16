@@ -58,11 +58,10 @@ header img {
 nav li {
     visibility: visible;
     background-color: rgb(193, 224, 202);
-    padding: 8px 35px;
+    padding: min(0.5vw, 8px) min(2.5vw, 35px);
     border-radius: 25px;
     border: 2px solid white;
     font-size: min(2vw, 18px);
-    overflow: hidden;
     list-style-type: none;
     display: inline;
     margin: 10px;
