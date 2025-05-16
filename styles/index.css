@@ -118,13 +118,13 @@ h2 {
   transform: scale(1.1);
 }
 
-footer {
+/* footer {
   background-color: rgb(169, 124, 124);
   border: 2px solid white;
   padding: 5px;
   margin-left: 0px;
   margin-right: 0px;
-}
+} */
 
 /* make it responsive on smaller screen */
 @media screen and (max-width: 600px) {
